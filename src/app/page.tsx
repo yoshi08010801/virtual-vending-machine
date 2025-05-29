@@ -2,6 +2,8 @@
 
 import { useEffect, useState, useRef } from "react";
 
+
+
 type Drink = {
   name: string;
   image: string;
@@ -15,6 +17,12 @@ export default function Home() {
   const buttonSoundRef = useRef<HTMLAudioElement | null>(null);
   const vendingSoundRef = useRef<HTMLAudioElement | null>(null);
   const dropSoundRef = useRef<HTMLAudioElement | null>(null);
+  useEffect(() => {
+    if (!localStorage.getItem("soundPopupShown")) {
+      alert("🔊 Sound will play next. Click OK to continue.");
+      localStorage.setItem("soundPopupShown", "true");
+    }
+  }, []);
 
   useEffect(() => {
     fetch("/drinks.json")

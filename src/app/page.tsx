@@ -61,7 +61,7 @@ export default function Home() {
         </h1>
 
         <div className="grid grid-cols-4 gap-2 sm:gap-3 px-1 sm:px-0">
-          {drinks.map((drink, index) => {
+          {drinks.map((drink) => {
             const isSold = soldOut.includes(drink.name);
             return (
               <button

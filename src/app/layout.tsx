@@ -19,9 +19,24 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "My Vending Machine",
-  description: "American-style vending machine UI",
+  title: "Virtual Japanese Vending Machine",
+  description: "Try a realistic Japanese vending machine experience—interactive, fun, and free.",
+  openGraph: {
+    title: "Virtual Japanese Vending Machine",
+    description: "Explore Japan’s unique vending culture through this virtual interactive machine.",
+    url: "https://virtual-vending-machine.vercel.app",
+    siteName: "Virtual Vending Machine",
+    // images: [ ... ] ← ここをコメントアウトまたは削除
+    type: "website",
+  },
+  twitter: {
+    card: "summary", // 画像なしの場合は "summary" が自然
+    title: "Virtual Japanese Vending Machine",
+    description: "Try a realistic Japanese vending machine experience—interactive, fun, and free.",
+    // images: [ ... ] ← ここも削除してOK
+  },
 };
+
 
 export default function RootLayout({
   children,

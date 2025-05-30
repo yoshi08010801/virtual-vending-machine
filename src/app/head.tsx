@@ -4,7 +4,7 @@ export default function Head() {
         <title>Virtual Japanese Vending Machine</title>
   
         {/* ✅ Twitterカード最上部に配置（順番が重要） */}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" key="twcard" />
         <meta name="twitter:title" content="Virtual Japanese Vending Machine" />
         <meta
           name="twitter:description"
@@ -25,7 +25,8 @@ export default function Head() {
           property="og:description"
           content="Explore Japan’s unique vending culture through this virtual interactive machine."
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />// Dummy comment to trigger redeploy
+
         <meta
           property="og:url"
           content="https://virtual-vending-machine.vercel.app"

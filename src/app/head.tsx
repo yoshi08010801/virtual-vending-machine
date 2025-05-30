@@ -25,7 +25,7 @@ export default function Head() {
           property="og:description"
           content="Explore Japan’s unique vending culture through this virtual interactive machine."
         />
-        <meta property="og:type" content="website" />// Dummy comment to trigger redeploy
+        <meta property="og:type" content="website" /> {/* Dummy comment to trigger redeploy */}
 
         <meta
           property="og:url"

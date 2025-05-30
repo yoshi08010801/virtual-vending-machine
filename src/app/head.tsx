@@ -25,7 +25,7 @@ export default function Head() {
         />
         <meta
   name="twitter:image"
-  content="https://virtual-vending-machine.vercel.app/og-image.png?v=2"
+  content="https://virtual-vending-machine.vercel.app/og-image.png?v=3"
 />
 
         <meta name="twitter:card" content="summary_large_image" />

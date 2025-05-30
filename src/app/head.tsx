@@ -11,9 +11,9 @@ export default function Head() {
           content="Try a realistic Japanese vending machine experience—interactive, fun, and free."
         />
         <meta
-          name="twitter:image"
-          content="https://virtual-vending-machine.vercel.app/og-image.jpg?v=1"
-        />
+  name="twitter:image"
+  content="https://virtual-vending-machine.vercel.app/og-image-new.jpg"
+/>
   
         {/* ✅ OGPタグ群 */}
         <meta
@@ -31,9 +31,9 @@ export default function Head() {
           content="https://virtual-vending-machine.vercel.app"
         />
         <meta
-          property="og:image"
-          content="https://virtual-vending-machine.vercel.app/og-image.jpg?v=1"
-        />
+  property="og:image"
+  content="https://virtual-vending-machine.vercel.app/og-image-new.jpg"
+/>
       </>
     );
   }

@@ -1,4 +1,3 @@
-// app/head.tsx
 export default function Head() {
     return (
       <>
@@ -13,7 +12,7 @@ export default function Head() {
         />
         <meta
           name="twitter:image"
-          content="https://virtual-vending-machine.vercel.app/og-image.png?v=4"
+          content="https://virtual-vending-machine.vercel.app/og-image.jpg?v=1"
         />
   
         {/* ✅ OGPタグ群 */}
@@ -33,7 +32,7 @@ export default function Head() {
         />
         <meta
           property="og:image"
-          content="https://virtual-vending-machine.vercel.app/og-image.png?v=4"
+          content="https://virtual-vending-machine.vercel.app/og-image.jpg?v=1"
         />
       </>
     );
